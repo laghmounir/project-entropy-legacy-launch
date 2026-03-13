@@ -74,7 +74,9 @@ function Hero() {
   useEffect(() => { setLoaded(true); }, []);
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      <img src={heroBg} alt="Project Entropy futuristic cityscape" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+<video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover" poster={heroBg}>
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
       <div className="absolute inset-0 bg-background/60" />
       <div className="absolute inset-0 scanline pointer-events-none" />
       {/* Scan line animation */}
