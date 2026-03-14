@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import battleImg from "@/assets/gameplay-battle.jpg";
-import techImg from "@/assets/gameplay-tech.jpg";
-import exploreImg from "@/assets/gameplay-explore.jpg";
+import featureBase from "@/assets/feature-base.jpg";
+import featureCombat from "@/assets/feature-combat.jpg";
+import featureSquad from "@/assets/feature-squad.jpg";
 
 export default function KeyFeaturesSection() {
   const ref = useRef<HTMLDivElement>(null);
@@ -15,9 +15,9 @@ export default function KeyFeaturesSection() {
   }, []);
 
   const features = [
-    { img: battleImg, icon: "🏗️", title: "Build Your Base", desc: "Construct and upgrade your own outpost to survive in a hostile alien environment." },
-    { img: exploreImg, icon: "👾", title: "Fight Alien Threats", desc: "Battle powerful creatures and unknown enemies across a massive world." },
-    { img: techImg, icon: "🤝", title: "Squad Up With Players", desc: "Team up with other players and dominate the battlefield together." },
+    { img: featureBase, icon: "🏗️", title: "Build Your Base", desc: "Construct and upgrade your own outpost to survive in a hostile alien environment." },
+    { img: featureCombat, icon: "👾", title: "Fight Alien Threats", desc: "Battle powerful creatures and unknown enemies across a massive world." },
+    { img: featureSquad, icon: "🤝", title: "Squad Up With Players", desc: "Team up with other players and dominate the battlefield together." },
   ];
 
   return (

@@ -25,7 +25,7 @@ export default function GameplayVideoSection() {
             autoPlay muted loop playsInline
             className="w-full h-[300px] md:h-[500px] object-cover"
           >
-            <source src="/hero-bg.mp4" type="video/mp4" />
+            <source src="/gameplay.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-background/20 scanline pointer-events-none" />
           <div className="absolute bottom-4 left-4 font-display text-[10px] tracking-[0.3em] text-primary/50 uppercase">
