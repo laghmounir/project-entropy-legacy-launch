@@ -139,11 +139,26 @@ function GameplaySection() {
           </h2>
         </div>
         <div className="flex gap-4 overflow-x-auto pb-6 snap-x snap-mandatory scrollbar-hide">
+          {/* Featured Video */}
+          <div
+            className={`flex-shrink-0 w-[340px] md:w-[420px] snap-center group transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+          >
+            <div className="relative overflow-hidden clip-chamfer-lg border-cyber">
+              <video autoPlay muted loop playsInline className="w-full h-60 md:h-72 object-cover">
+                <source src="/gameplay-video.mp4" type="video/mp4" />
+              </video>
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-0 left-0 right-0 p-5 pointer-events-none">
+                <h3 className="font-display text-sm tracking-wider uppercase text-primary mb-1">Live Gameplay</h3>
+                <p className="font-body text-sm text-foreground/60">Experience the intensity of real-time strategic combat.</p>
+              </div>
+            </div>
+          </div>
           {images.map((img, i) => (
             <div
               key={i}
               className={`flex-shrink-0 w-[340px] md:w-[420px] snap-center group transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-              style={{ transitionDelay: `${i * 150}ms` }}
+              style={{ transitionDelay: `${(i + 1) * 150}ms` }}
             >
               <div className="relative overflow-hidden clip-chamfer-lg border-cyber">
                 <img src={img.src} alt={img.title} className="w-full h-60 md:h-72 object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
