@@ -48,7 +48,7 @@ export default function HeroSection() {
         <p className="font-body text-foreground/70 max-w-2xl text-lg md:text-xl leading-relaxed mb-10">
           Explore a hostile alien world, build your base, and fight for survival with your squad in Project Entropy.
         </p>
-        <a href="#download" className="clip-chamfer-lg bg-accent px-10 py-5 font-display text-sm md:text-base tracking-wider uppercase text-accent-foreground box-glow-orange hover:brightness-110 transition-all mb-4">
+        <a href="https://to.wendiro.com/u?k=220e77cdef8b42929dd5c06ff71b4ae5&via=13040" target="_blank" rel="noopener noreferrer" className="clip-chamfer-lg bg-accent px-10 py-5 font-display text-sm md:text-base tracking-wider uppercase text-accent-foreground box-glow-orange hover:brightness-110 transition-all mb-4">
           ⬇ Play Free on PC
         </a>
         <p className="font-display text-[10px] md:text-xs tracking-[0.3em] text-foreground/40 uppercase">
