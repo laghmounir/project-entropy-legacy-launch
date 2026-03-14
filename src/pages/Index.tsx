@@ -124,10 +124,10 @@ function Hero() {
 function GameplaySection() {
   const { ref, visible } = useInView();
   const images = [
-    { src: heroBg, title: "Neon Districts", desc: "Navigate sprawling megacities with dynamic day-night cycles." },
-    { src: battleImg, title: "Titan Warfare", desc: "Deploy mechanized units in massive real-time strategic battles." },
-    { src: techImg, title: "Research Labs", desc: "Unlock forbidden technologies from ancient civilizations." },
-    { src: exploreImg, title: "Alien Worlds", desc: "Explore uncharted planets with unique biomes and ecosystems." },
+    { src: battleImg, title: "Carrier Fleet", desc: "Command massive carrier ships across hostile star systems in epic fleet battles." },
+    { src: exploreImg, title: "Lunar Colonies", desc: "Establish research outposts on barren moons and harvest rare resources." },
+    { src: techImg, title: "Space Ecosystems", desc: "Engineer orbital habitats with self-sustaining biomes and advanced agriculture." },
+    { src: cityImg, title: "Bio-Spheres", desc: "Construct gravity-defying eco-spheres harboring entire civilizations in deep space." },
   ];
   return (
     <section id="gameplay" className="relative py-24 md:py-32" ref={ref}>
