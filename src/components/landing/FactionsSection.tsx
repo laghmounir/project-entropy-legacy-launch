@@ -63,7 +63,7 @@ export default function FactionsSection() {
               <div className="relative crosshair-corner">
                 <img src={a.img} alt={a.name} className="w-full h-64 object-cover object-center group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/60 to-transparent" />
-                <span className="absolute top-4 left-4 text-3xl">{a.icon}</span>
+                
               </div>
               <div className="p-6 relative">
                 <div className="absolute top-0 left-6 right-6 h-px bg-primary/20" />
