@@ -165,9 +165,9 @@ function GameplaySection() {
 function FactionsSection() {
   const { ref, visible } = useInView();
   const factions = [
-    { img: factionNexus, name: "The Nexus Collective", desc: "Masters of quantum computing and surveillance. They believe absolute knowledge is the only path to survival.", color: "text-primary" },
-    { img: factionIron, name: "Iron Dominion", desc: "War-forged cybernetic soldiers bound by conquest. Strength through augmentation, victory through entropy.", color: "text-accent" },
-    { img: factionVoid, name: "Void Weavers", desc: "Ethereal beings who transcended physical form. They manipulate dark energy and the fabric of spacetime.", color: "text-primary" },
+    { img: factionNexus, name: "The Star Navigators", desc: "Elite cosmic explorers who chart unknown galaxies. Their courage and agility make them humanity's vanguard.", color: "text-primary" },
+    { img: factionIron, name: "The Architects", desc: "Ancient builders of colossal ring-world structures. They reshape planets and bend gravity to their will.", color: "text-accent" },
+    { img: factionVoid, name: "The Vanguard Pilots", desc: "Battle-hardened fighter pilots who defend the frontier. Scarred by war, driven by unwavering resolve.", color: "text-primary" },
   ];
   return (
     <section id="factions" className="relative py-24 md:py-32 bg-secondary/30" ref={ref}>
