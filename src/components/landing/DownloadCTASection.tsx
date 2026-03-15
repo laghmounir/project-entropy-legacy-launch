@@ -56,7 +56,7 @@ export default function DownloadCTASection() {
                 onClick={handleDownload}
                 className="clip-chamfer-lg bg-accent px-12 py-5 font-display text-base tracking-wider uppercase text-accent-foreground box-glow-orange hover:brightness-110 transition-all mb-4"
               >
-                ⬇ Download Free on Steam
+                ⬇ Download Free
               </button>
               <div className="font-display text-[10px] tracking-[0.3em] text-foreground/30 uppercase mb-4">
                 Available for Windows PC Only
