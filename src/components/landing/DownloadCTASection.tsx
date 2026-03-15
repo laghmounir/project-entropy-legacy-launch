@@ -36,47 +36,20 @@ export default function DownloadCTASection() {
             Free to play. No boundaries. Command the dying universe from your desktop.
           </p>
 
-          {!checking ? (
-            <>
-              <button
-                onClick={handleDownload}
-                className="clip-chamfer-lg bg-accent px-12 py-5 font-display text-base tracking-wider uppercase text-accent-foreground box-glow-orange hover:brightness-110 transition-all mb-4"
-              >
-                ⬇ Download Free
-              </button>
-              <div className="font-display text-[10px] tracking-[0.3em] text-foreground/30 uppercase mb-4">
-                Available for Windows PC Only
-              </div>
-              <div className="font-display text-[10px] tracking-[0.2em] text-foreground/20 uppercase">
-                No subscription • Free download • Play instantly
-              </div>
-            </>
-          ) : (
-            <div className="clip-chamfer border-cyber bg-card/80 p-8 max-w-md mx-auto" style={{ animation: "fadeSlideUp 0.3s ease-out" }}>
-              <div className="space-y-4">
-                {steps.map((step, i) => (
-                  <div key={i} className="flex items-center gap-3">
-                    {i < checkStep ? (
-                      <span className="text-primary text-sm">✓</span>
-                    ) : i === checkStep ? (
-                      <span className="w-4 h-4 border-2 border-primary border-t-transparent rounded-full animate-spin" />
-                    ) : (
-                      <span className="w-4 h-4 border border-foreground/20 rounded-full" />
-                    )}
-                    <span className={`font-display text-xs tracking-wider uppercase ${i <= checkStep ? "text-primary" : "text-foreground/30"}`}>
-                      {step}
-                    </span>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-6 w-full bg-muted rounded-full h-1 overflow-hidden">
-                <div
-                  className="h-full bg-primary transition-all duration-1000 ease-out"
-                  style={{ width: `${((checkStep + 1) / steps.length) * 100}%` }}
-                />
-              </div>
+          <>
+            <button
+              onClick={handleDownload}
+              className="clip-chamfer-lg bg-accent px-12 py-5 font-display text-base tracking-wider uppercase text-accent-foreground box-glow-orange hover:brightness-110 transition-all mb-4"
+            >
+              ⬇ Download Free
+            </button>
+            <div className="font-display text-[10px] tracking-[0.3em] text-foreground/30 uppercase mb-4">
+              Available for Windows PC Only
             </div>
-          )}
+            <div className="font-display text-[10px] tracking-[0.2em] text-foreground/20 uppercase">
+              No subscription • Free download • Play instantly
+            </div>
+          </>
         </div>
       </div>
     </section>
