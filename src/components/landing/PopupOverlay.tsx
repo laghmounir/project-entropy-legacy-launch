@@ -14,7 +14,12 @@ export default function PopupOverlay() {
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" style={{ animation: "fadeSlideUp 0.4s ease-out" }}>
       <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setShow(false)} />
-      <div className="relative clip-chamfer-lg border-cyber bg-card p-8 md:p-10 max-w-lg w-full text-center z-10">
+      <div className="relative clip-chamfer-lg border-cyber overflow-hidden max-w-lg w-full text-center z-10">
+        {/* Background image */}
+        <div className="absolute inset-0">
+          <img src={popupBg} alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-card/85" />
+        </div>
         {/* Close button */}
         <button
           onClick={() => setShow(false)}
