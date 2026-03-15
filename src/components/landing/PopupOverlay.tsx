@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import popupBg from "@/assets/popup-bg.jpg";
 
 export default function PopupOverlay() {
   const [show, setShow] = useState(false);
@@ -13,16 +14,23 @@ export default function PopupOverlay() {
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" style={{ animation: "fadeSlideUp 0.4s ease-out" }}>
       <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setShow(false)} />
-      <div className="relative clip-chamfer-lg border-cyber bg-card p-8 md:p-10 max-w-lg w-full text-center z-10">
-        {/* Close button */}
-        <button
-          onClick={() => setShow(false)}
-          className="absolute top-4 right-4 font-display text-xs text-foreground/40 hover:text-primary transition-colors"
-        >
-          ✕
-        </button>
+      <div className="relative clip-chamfer-lg border-cyber overflow-hidden max-w-lg w-full text-center z-10">
+        {/* Background image */}
+        <div className="absolute inset-0">
+          <img src={popupBg} alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-card/85" />
+        </div>
+        {/* Content */}
+        <div className="relative z-10 p-8 md:p-10">
+          {/* Close button */}
+          <button
+            onClick={() => setShow(false)}
+            className="absolute top-4 right-4 font-display text-xs text-foreground/40 hover:text-primary transition-colors"
+          >
+            ✕
+          </button>
 
-        <div className="text-4xl mb-4">🚀</div>
+          <div className="text-4xl mb-4">🚀</div>
         <h3 className="font-display text-xl md:text-2xl font-bold text-foreground text-glow-cyan mb-3">
           Ready to Join the Fight?
         </h3>
@@ -41,6 +49,7 @@ export default function PopupOverlay() {
         <p className="font-display text-[10px] tracking-[0.2em] text-foreground/30 uppercase">
           Free to Play • No Credit Card Required
         </p>
+        </div>
       </div>
     </div>
   );
