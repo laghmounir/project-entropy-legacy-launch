@@ -49,6 +49,7 @@ export default function PopupOverlay() {
         <p className="font-display text-[10px] tracking-[0.2em] text-foreground/30 uppercase">
           Free to Play • No Credit Card Required
         </p>
+        </div>
       </div>
     </div>
   );
