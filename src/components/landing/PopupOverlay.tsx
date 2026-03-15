@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import popupBg from "@/assets/popup-bg.jpg";
 
 export default function PopupOverlay() {
   const [show, setShow] = useState(false);
