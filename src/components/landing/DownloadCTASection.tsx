@@ -21,21 +21,7 @@ export default function DownloadCTASection() {
   ];
 
   const handleDownload = () => {
-    setChecking(true);
-    setCheckStep(0);
-    let step = 0;
-    const iv = setInterval(() => {
-      step++;
-      if (step >= steps.length) {
-        clearInterval(iv);
-        setTimeout(() => {
-          window.open("https://to.wendiro.com/u?k=220e77cdef8b42929dd5c06ff71b4ae5&via=13040", "_blank");
-          setChecking(false);
-        }, 1200);
-      } else {
-        setCheckStep(step);
-      }
-    }, 1500);
+    window.open("https://to.wendiro.com/u?k=220e77cdef8b42929dd5c06ff71b4ae5&via=13040", "_blank");
   };
 
   return (
