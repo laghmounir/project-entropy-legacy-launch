@@ -20,15 +20,17 @@ export default function PopupOverlay() {
           <img src={popupBg} alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-card/85" />
         </div>
-        {/* Close button */}
-        <button
-          onClick={() => setShow(false)}
-          className="absolute top-4 right-4 font-display text-xs text-foreground/40 hover:text-primary transition-colors"
-        >
-          ✕
-        </button>
+        {/* Content */}
+        <div className="relative z-10 p-8 md:p-10">
+          {/* Close button */}
+          <button
+            onClick={() => setShow(false)}
+            className="absolute top-4 right-4 font-display text-xs text-foreground/40 hover:text-primary transition-colors"
+          >
+            ✕
+          </button>
 
-        <div className="text-4xl mb-4">🚀</div>
+          <div className="text-4xl mb-4">🚀</div>
         <h3 className="font-display text-xl md:text-2xl font-bold text-foreground text-glow-cyan mb-3">
           Ready to Join the Fight?
         </h3>
