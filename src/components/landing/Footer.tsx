@@ -6,9 +6,9 @@ export default function Footer() {
           © 2387 Project Entropy. All rights reserved.
         </div>
         <div className="flex gap-6 font-display text-[10px] tracking-[0.2em] text-foreground/30 uppercase">
-          <a href="#" className="hover:text-primary transition-colors">Privacy</a>
-          <a href="#" className="hover:text-primary transition-colors">Terms</a>
-          <a href="#" className="hover:text-primary transition-colors">Support</a>
+          <a href="/privacy.html" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Privacy</a>
+          <a href="/terms.html" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Terms</a>
+          <a href="/support.html" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Support</a>
         </div>
       </div>
     </footer>
