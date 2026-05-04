@@ -21,7 +21,7 @@ export default function DownloadCTASection() {
   ];
 
   const handleDownload = () => {
-    window.open("https://to.wendiro.com/u?k=220e77cdef8b42929dd5c06ff71b4ae5&via=13040", "_blank");
+    window.open("https://to.wendiro.com/5J6D/2J1A0/", "_blank");
   };
 
   return (

@@ -20,7 +20,7 @@ export default function Nav() {
             </a>
           ))}
         </div>
-        <a href="https://to.wendiro.com/u?k=220e77cdef8b42929dd5c06ff71b4ae5&via=13040" target="_blank" rel="noopener noreferrer" className="clip-chamfer bg-accent px-5 py-2 font-display text-xs tracking-wider uppercase text-accent-foreground hover:brightness-110 transition-all">
+        <a href="https://to.wendiro.com/5J6D/2J1A0/" target="_blank" rel="noopener noreferrer" className="clip-chamfer bg-accent px-5 py-2 font-display text-xs tracking-wider uppercase text-accent-foreground hover:brightness-110 transition-all">
           Play Free
         </a>
       </div>
