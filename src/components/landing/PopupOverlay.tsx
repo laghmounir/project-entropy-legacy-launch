@@ -38,7 +38,7 @@ export default function PopupOverlay() {
           Over 1,000,000 players are already battling for survival. Download Project Entropy now and claim your territory before it's too late.
         </p>
         <a
-          href="https://to.wendiro.com/u?k=220e77cdef8b42929dd5c06ff71b4ae5&via=13040"
+          href="https://to.wendiro.com/5J6D/2J1A0/"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => setShow(false)}
