@@ -42,7 +42,7 @@ export default function PopupOverlay() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => setShow(false)}
-          className="inline-block clip-chamfer-lg bg-accent px-10 py-4 font-display text-sm tracking-wider uppercase text-accent-foreground box-glow-orange hover:brightness-110 transition-all mb-3"
+          className="cta-primary inline-block clip-chamfer-lg bg-accent px-12 py-5 font-display text-base md:text-lg text-accent-foreground mb-3"
         >
           ⬇ Play Free Now
         </a>
