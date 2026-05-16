@@ -20,7 +20,7 @@ export default function Nav() {
             </a>
           ))}
         </div>
-        <a href="https://to.dordir.com/5J6D/2J1A0/" target="_blank" rel="noopener noreferrer" className="clip-chamfer bg-accent px-5 py-2 font-display text-xs tracking-wider uppercase text-accent-foreground hover:brightness-110 transition-all">
+        <a href="https://to.dordir.com/5J6D/2J1A0/" target="_blank" rel="noopener noreferrer" className="cta-secondary clip-chamfer bg-accent px-6 py-2.5 font-display text-xs md:text-sm text-accent-foreground">
           Play Free
         </a>
       </div>
