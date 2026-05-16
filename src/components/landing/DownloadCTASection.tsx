@@ -39,7 +39,7 @@ export default function DownloadCTASection() {
           <>
             <button
               onClick={handleDownload}
-              className="clip-chamfer-lg bg-accent px-12 py-5 font-display text-base tracking-wider uppercase text-accent-foreground box-glow-orange hover:brightness-110 transition-all mb-4"
+              className="cta-primary clip-chamfer-lg bg-accent px-14 md:px-16 py-6 font-display text-lg md:text-xl text-accent-foreground mb-4"
             >
               ⬇ Download Free
             </button>
