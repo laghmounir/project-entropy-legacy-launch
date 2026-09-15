@@ -41,9 +41,8 @@ export default function KeyFeaturesSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
               </div>
               <div className="p-6">
-                <div className="text-3xl mb-3">{f.icon}</div>
-                <h3 className="font-display text-sm tracking-wider uppercase text-primary mb-2">{f.title}</h3>
-                <p className="font-body text-sm text-foreground/60 leading-relaxed">{f.desc}</p>
+                <h3 className="font-display text-sm tracking-[0.2em] uppercase text-primary mb-2">{f.title}</h3>
+                <p className="font-body text-base text-foreground/70 leading-relaxed">{f.desc}</p>
               </div>
             </div>
           ))}
