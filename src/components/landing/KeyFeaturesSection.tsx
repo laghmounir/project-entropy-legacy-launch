@@ -15,9 +15,9 @@ export default function KeyFeaturesSection() {
   }, []);
 
   const features = [
-    { img: featureBase, icon: "🏗️", title: "Build Your Base", desc: "Construct and upgrade your own outpost to survive in a hostile alien environment." },
-    { img: featureCombat, icon: "👾", title: "Fight Alien Threats", desc: "Battle powerful creatures and unknown enemies across a massive world." },
-    { img: featureSquad, icon: "🤝", title: "Squad Up With Players", desc: "Team up with other players and dominate the battlefield together." },
+    { img: featureBase, title: "Build Your Base", desc: "Construct and upgrade your outpost as you expand across new worlds." },
+    { img: featureCombat, title: "Command Fleets & Mechas", desc: "Deploy ships, mecha units and heroes in strategic battles." },
+    { img: featureSquad, title: "Play With Others", desc: "Join other commanders online and coordinate in shared sectors." },
   ];
 
   return (
@@ -41,9 +41,8 @@ export default function KeyFeaturesSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
               </div>
               <div className="p-6">
-                <div className="text-3xl mb-3">{f.icon}</div>
-                <h3 className="font-display text-sm tracking-wider uppercase text-primary mb-2">{f.title}</h3>
-                <p className="font-body text-sm text-foreground/60 leading-relaxed">{f.desc}</p>
+                <h3 className="font-display text-sm tracking-[0.2em] uppercase text-primary mb-2">{f.title}</h3>
+                <p className="font-body text-base text-foreground/70 leading-relaxed">{f.desc}</p>
               </div>
             </div>
           ))}
