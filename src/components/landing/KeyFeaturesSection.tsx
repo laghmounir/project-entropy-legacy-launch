@@ -15,9 +15,9 @@ export default function KeyFeaturesSection() {
   }, []);
 
   const features = [
-    { img: featureBase, icon: "🏗️", title: "Build Your Base", desc: "Construct and upgrade your own outpost to survive in a hostile alien environment." },
-    { img: featureCombat, icon: "👾", title: "Fight Alien Threats", desc: "Battle powerful creatures and unknown enemies across a massive world." },
-    { img: featureSquad, icon: "🤝", title: "Squad Up With Players", desc: "Team up with other players and dominate the battlefield together." },
+    { img: featureBase, title: "Build Your Base", desc: "Construct and upgrade your outpost as you expand across new worlds." },
+    { img: featureCombat, title: "Command Fleets & Mechas", desc: "Deploy ships, mecha units and heroes in strategic battles." },
+    { img: featureSquad, title: "Play With Others", desc: "Join other commanders online and coordinate in shared sectors." },
   ];
 
   return (
