@@ -14,14 +14,19 @@ export default function Nav() {
           Project Entropy
         </div>
         <div className="hidden md:flex gap-8 font-display text-xs tracking-[0.2em] uppercase">
-          {["Gameplay", "Features", "Factions", "Download"].map((s) => (
-            <a key={s} href={`#${s.toLowerCase()}`} className="text-foreground/60 hover:text-primary transition-colors duration-200">
-              {s}
+          {[
+            { label: "Gameplay", href: "#gameplay" },
+            { label: "Features", href: "#features" },
+            { label: "Alliances", href: "#factions" },
+            { label: "Overview", href: "#overview" },
+          ].map((s) => (
+            <a key={s.label} href={s.href} className="text-foreground/70 hover:text-primary transition-colors duration-200">
+              {s.label}
             </a>
           ))}
         </div>
-        <a href="https://to.dordir.com/5J6D/2J1A0/" target="_blank" rel="noopener noreferrer" className="cta-secondary clip-chamfer bg-accent px-6 py-2.5 font-display text-xs md:text-sm text-accent-foreground">
-          Play Free
+        <a href="https://to.dordir.com/5J6D/2J1A0/" target="_blank" rel="noopener noreferrer sponsored" className="cta-secondary clip-chamfer px-5 py-2.5 font-display text-[11px] md:text-xs">
+          Discover Project Entropy
         </a>
       </div>
     </nav>
