@@ -26,6 +26,26 @@ The current list uses search-intent signals visible in current search results, n
 9. Project Entropy review
 10. Project Entropy vs Stellaris
 
+## Keyword Planner snapshot
+
+Checked in Google Keyword Planner on 26 September 2026 with location **United States**, language **English**, Google search network and the last 12 months (September 2025–August 2026). Google reports ranges, not exact counts, so these are directional signals rather than guaranteed traffic.
+
+| Seed keyword | Avg. monthly searches | Competition | Note |
+| --- | ---: | --- | --- |
+| `project entropy` | 1K–10K | Low | Primary demand signal |
+| `project entropy gameplay` | 100–1K | Low | Strongest supporting topic; +900% YoY shown |
+| `project entropy game` | 10–100 | Low | Informational variant |
+| `project entropy pc` | 10–100 | Low | PC access intent |
+| `project entropy system requirements` | 10–100 | — | Specific technical intent |
+| `project entropy pvp` | 10–100 | — | Mode-specific intent; declining in the displayed period |
+| `project entropy beginner guide` | 0–10 | — | Useful supporting content, not a volume leader |
+| `project entropy factions` | 0–10 | — | Useful supporting content |
+| `project entropy hero fleets` | 0–10 | — | Useful supporting content |
+| `is project entropy free to play` | 0–10 | — | High-clarity decision intent |
+| `project entropy vs stellaris` | 0–10 | — | Comparison intent |
+
+The immediate editorial priority is therefore: **overview and gameplay first**, then **PC/system requirements**, then the supporting beginner, mode, pricing, faction, fleet and comparison articles. Low-volume terms should remain published as a cluster because they answer specific questions and create internal links around the main topic; they should not be presented as high-volume keywords.
+
 ## Editorial rules
 
 - Write for players who scan: answer first, facts grid, short sections, visible headings and one clear `Start Playing` action.
