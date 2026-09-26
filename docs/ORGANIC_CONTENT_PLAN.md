@@ -55,6 +55,15 @@ The immediate editorial priority is therefore: **overview and gameplay first**, 
 - Keep `Start Playing` as the user-facing CTA. Keep `affiliate_click` as the internal event name.
 - Recheck Steam facts and access conditions before major updates.
 
+## Technical SEO audit — 26 September 2026
+
+- The four priority pages are the overview, gameplay, PC and system-requirements guides.
+- Each guide now updates its title, description, canonical URL, Open Graph/Twitter metadata and article image at route level.
+- Article and breadcrumb JSON-LD are generated only on guide pages and describe content that is visible on the page.
+- Cloudflare preview hosts receive `noindex, follow`; production hosts `entropypc.com` and `www.entropypc.com` remain indexable.
+- The sitemap remains restricted to the production `https://entropypc.com/` URLs.
+- This is a preview validation step only. No production deployment or Google Ads campaign change is authorized by this audit.
+
 ## Planned URLs
 
 - `/guides/project-entropy-system-requirements`

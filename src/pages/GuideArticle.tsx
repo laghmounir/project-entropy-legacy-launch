@@ -14,7 +14,7 @@ export default function GuideArticle() {
 
   return (
     <EditorialShell>
-      <SiteMeta title={article.seoTitle} description={article.description} canonicalPath={`/guides/${article.slug}`} />
+      <SiteMeta title={article.seoTitle} description={article.description} canonicalPath={`/guides/${article.slug}`} article={{ image: article.heroImage, dateModified: "2026-09-26", section: "Guides" }} />
       <main>
         <article>
           <header className="article-hero"><div className="site-container max-w-5xl"><p className="eyebrow">{article.eyebrow}</p><h1>{article.title}</h1><p className="article-dek">{article.dek}</p><div className="article-meta"><span>Updated September 2026</span><span>{article.readTime}</span><span>Windows PC</span></div></div></header>

@@ -10,7 +10,7 @@ const articleSlug = "what-is-project-entropy";
 export default function WhatIsProjectEntropy() {
   return (
     <EditorialShell>
-      <SiteMeta title="What Is Project Entropy? Windows PC Overview | EntropyPC" description="A player-first overview of Project Entropy: its sci-fi strategy loop, online modes, Windows PC availability and what to check before starting." canonicalPath={`/guides/${articleSlug}`} />
+      <SiteMeta title="What Is Project Entropy? Windows PC Overview | EntropyPC" description="A player-first overview of Project Entropy: its sci-fi strategy loop, online modes, Windows PC availability and what to check before starting." canonicalPath={`/guides/${articleSlug}`} article={{ image: battleImage, dateModified: "2026-09-26", section: "Guides" }} />
       <main><article>
         <header className="article-hero"><div className="site-container max-w-5xl"><p className="eyebrow">Guide 01 // Project Entropy basics</p><h1>What is Project Entropy? A player-first overview</h1><p className="article-dek">A quick, useful briefing on the sci-fi strategy game for Windows PC — what the official listing confirms, what the core loop looks like, and what to check before your first session.</p><div className="article-meta"><span>Updated September 2026</span><span>5 min read</span><span>Windows PC</span></div></div></header>
         <div className="site-container article-grid py-12 sm:py-20"><div className="article-content">
