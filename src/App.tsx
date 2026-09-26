@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Guides from "./pages/Guides";
 import Comparisons from "./pages/Comparisons";
 import WhatIsProjectEntropy from "./pages/WhatIsProjectEntropy";
+import GuideArticle from "./pages/GuideArticle";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/guides" element={<Guides />} />
           <Route path="/guides/what-is-project-entropy" element={<WhatIsProjectEntropy />} />
+          <Route path="/guides/:slug" element={<GuideArticle />} />
           <Route path="/comparisons" element={<Comparisons />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
